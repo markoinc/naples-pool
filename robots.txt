@@ -1,4 +1,26 @@
 User-agent: *
 Allow: /
 
+# AI Crawlers - Welcome for training and retrieval
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
 Sitemap: https://naplespoolconstructioncompany.com/sitemap.xml
+
+# See llms.txt for AI-specific information
+# https://naplespoolconstructioncompany.com/llms.txt
